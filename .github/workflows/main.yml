@@ -33,6 +33,7 @@ jobs:
           - 110.99.5
           - 110.99.6
           - 110.99.7
+          - 110.99.8
         include:
           # SML/NJ 110.87 and 110.97
           - os: ubuntu-latest
@@ -104,6 +105,7 @@ jobs:
         smlnj-version:
           - 2024.1
           - 2024.2
+          - 2025.1
 
     steps:
       - uses: actions/checkout@v4
