@@ -77,7 +77,7 @@ jobs:
             smlnj-version: 110.99.3
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
       - uses: ./
         with:
           smlnj-version: ${{ matrix.smlnj-version }}
@@ -108,7 +108,7 @@ jobs:
           - 2025.1
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
       - uses: ./
         with:
           smlnj-version: ${{ matrix.smlnj-version }}
