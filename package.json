@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/ProjectSavanna/setup-sml#readme",
   "dependencies": {
-    "@actions/core": "^1.11.1",
+    "@actions/core": "^3.0.0",
     "@actions/exec": "^1.1.1",
     "@actions/tool-cache": "^2.0.2",
     "@types/node": "^22.8.6",
